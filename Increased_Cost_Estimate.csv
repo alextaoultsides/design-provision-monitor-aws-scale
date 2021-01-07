@@ -1,0 +1,15 @@
+wwwGroup hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),App and Web Servers,Amazon EC2,0,7667.6,92011.20,USD,"Operating system (Linux), Quantity (4), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (10000 GB), Instance type (c5.9xlarge)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,77.85,934.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,36.870000000000005,442.44,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,25.189999999999998,302.28,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (1 GB per hour), Processed bytes per NLB for UDP (1 GB per hour)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,5683.2,68198.40,USD,S3 Standard storage (250 TB per month)
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,6192.956,74315.47,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (10 TB), Instance type (db.m5.12xlarge)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Increased Cost:
+The larger budget allowed me to increase the size of my S3 storage to 250 TB per Month and the DB storage to 10 TB.  The increased storage will allow for more users in the future beyond the 50000.  

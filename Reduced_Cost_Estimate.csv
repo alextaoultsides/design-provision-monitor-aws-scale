@@ -1,0 +1,15 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),App and Web Servers,Amazon EC2,0,712.45,8549.40,USD,"Operating system (Linux), Quantity (4), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (1000 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,77.85,934.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,36.870000000000005,442.44,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,25.189999999999998,302.28,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (1 GB per hour), Processed bytes per NLB for UDP (1 GB per hour)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,230,2760.00,USD,S3 Standard storage (10000 GB per month)
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,3844.656,46135.87,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year No UpFront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB)"
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Reduced Cost:
+I Lowered the EC2 Instance type from a c5.9xlarge to a t4g.xlarge.  It has less performance, is cheaper but is still burstable in case of increased traffic.
+Switching to a t4g.xlarge type brought the price to fit below the $6500 reduced budget.
